@@ -4,6 +4,7 @@ Each config::dict in parse_configs.json is run separately by parse.py
 
 ## Example parse_configs.json
 
+```
 {
     "name": "example",
     "samples_dir": "/data/project_WIP/KB_sampling/example",
@@ -12,6 +13,7 @@ Each config::dict in parse_configs.json is run separately by parse.py
     "convert": "converters.KB_sampling.convert",
     "ucto_configurationfile": "tokconfig-nld"
 }
+```
 
 ## Those keys used by parse.py and/or parse_channel.py
 

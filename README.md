@@ -1,8 +1,10 @@
 # README
 
+Convert a collection of texts to a collection of frog-parses of the sentences contained within the texts.
+
 Refer to [parse_configs.json](parse_configs.json) and [config_instructions.md](Docs/config_instructions.md).
 
-Refer to the example KB_sampling.py for a conversion function, converting file format of the files found in specified sample_dir resulting from KB_sampling process, to the format assumed by parse_channel.py
+It is necessary to define a conversion module/function to convert the format of the input texts to the format assumed by "parse.py". Refer to the example [converters/KB_sampling.py](converters/KB_sampling.py) conversion function. This converts file format of the files found in specified "sample_dir" resulting from "KB_sampling" process, to the format assumed by "parse_channel.py".
 
 ## Obtain frog-parses of samples
 
