@@ -1,0 +1,10 @@
+[
+    {
+        "name": "example",
+        "samples_dir": "/data/project_WIP/KB_sampling/example",
+        "output_dir": "/data/project_WIP/frog_dep_parse/example",
+        "n_processes": 1,
+        "convert": "converters.KB_sampling.convert",
+        "ucto_configurationfile": "tokconfig-nld"
+    }
+]
